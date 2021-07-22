@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "aeropuerto")
@@ -13,7 +13,6 @@ public class Aeropuerto {
 
     @Id
     @Column(name = "aeropuerto_id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer aeropuertoId;
 
     @Column(name = "nombre_aeropuerto")
