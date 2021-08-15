@@ -1,10 +1,5 @@
 package ar.com.ada.api.aladas.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 public class Pais {
     public enum PaisEnum {
         ARGENTINA(32), ESTADOS_UNIDOS(840), VENEZUELA(862), COLOMBIA(170);
