@@ -61,13 +61,11 @@
 			<artifactId>unirest-java</artifactId>
 			<version>3.1.02</version>
 		</dependency>
-
 		<dependency>
     		<groupId>org.postgresql</groupId>
     		<artifactId>postgresql</artifactId>
    			 <version>42.2.23</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
